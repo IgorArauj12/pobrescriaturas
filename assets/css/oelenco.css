@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    background: linear-gradient(to bottom, #C8979D, #FFF699)
+
+}
+
+.barraNavegacao {
+content: 30px;
+width: absolute;
+height: 300px;
+background-image: url('../img/Poor-Things-ganha-melhor-filme-musical-ou-comedia-no-Globo.jpg');
+background-size: cover;
+background-position-x: 100%;
+background-position-y: 50%;
+background-repeat: no-repeat;
+color: azure;
+
+}
+
+.barraNavegacao__logo {
+margin: 30px;
+width: 50px;
+height: auto;
+border-radius: 5px;
+
+}
+
+.barraNavegacao__botao {
+    align-content: center;
+    margin-bottom: 20px;
+    width: absolute;
+    border-bottom: 1px solid azure;
+}
+
+.barraNavegacao__botao--1 {
+    text-decoration: none;
+    outline: none;
+    color: azure;
+    margin: 40px;
+    border: 1px solid azure;
+    padding: 5px;
+  }
+
+.barraNavegacao__botao--2 {
+    text-decoration: none;
+    outline: none;
+    color: azure;
+    margin: 40px;
+    border: 1px solid azure;
+    padding: 5px;
+  }
+
+.barraNavegacao__botao--3 {
+    text-decoration: none;
+    outline: none;
+    color: azure;
+    margin: 40px;
+    border: 1px solid azure;
+    padding: 5px;
+  }
+
+.barraNavegacao__botao--4 {
+    text-decoration: none;
+    outline: none;
+    color: azure;
+    margin: 40px;
+    border: 1px solid azure;
+    padding: 5px;
+    outline: none;
+  }

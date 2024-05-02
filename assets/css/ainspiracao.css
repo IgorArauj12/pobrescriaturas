@@ -1,3 +1,9 @@
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;}
+
 body {
     margin: 0;
     background: linear-gradient(to bottom, #9CC1DC, #D5C3EC, #C2C6DD)

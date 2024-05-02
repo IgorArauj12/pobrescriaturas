@@ -1,7 +1,17 @@
-body {
-    margin: 0;
-    background: linear-gradient(to bottom, #9CC1DC, #D5C3EC, #C2C6DD)
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+display: flexbox}
 
+  @import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@400&display=swap');
+  @import url('https://fonts.google.com/share?selection.family=Satisfy');
+
+body {
+    margin: 0px;
+    background: linear-gradient(to bottom, #9CC1DC, #D5C3EC, #C2C6DD);
+  
 }
 
 .barraNavegacao {
@@ -14,6 +24,7 @@ background-position-x: 100%;
 background-position-y: 50%;
 background-repeat: no-repeat;
 color: azure;
+font-family: 'Satisfy';
 
 }
 
@@ -30,6 +41,7 @@ border-radius: 5px;
     margin-bottom: 20px;
     width: absolute;
     border-bottom: 1px solid azure;
+    display: inline;
 }
 
 .barraNavegacao__botao--1 {
@@ -71,20 +83,128 @@ border-radius: 5px;
 
 .texto-main {
 color: #3F3D3D;
-text-align: right;
+text-align: left;
+text-align: justify;
+margin-left: 300px;
+margin-right: 300px;
+font-family: 'Darker Grotesque';
 
 }
 
 .citacao1 {
-text-align: center;
+  color: azure;
+  text-align: center;
+  font-family: 'Darker Grotesque';
+}
+
+.titulo1 {
+  color: #3F3D3D;
+  text-align: left;
+  text-align: justify;
+  font-family: 'Darker Grotesque';
+  font-size: 42px;
 
 }
 
+/* Seção de podcast */
 
-.titulo1{
+.podcast {
+margin: 20px;
 
 }
 
-.noticias {
-    
+.podcast_img {
+  background-image: url(./assets/img/posterpodcast.jpg);
+  align: center;
+  margin: 50px;
+  width: absolute;
+  height: auto;
+  background-size: absolute;
+}
+
+/* Seção de notícias */
+.news-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+.news-row {
+  display: flex;
+}
+
+.news-item {
+  width: 33.33%; /* Cada item ocupará 1/3 da largura da linha */
+  margin: 10px;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  font-family: 'Darker Grotesque';
+}
+
+.news-item a {
+  text-decoration: none;
+  color: #3F3D3D;
+}
+
+.news-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.aside {
+  flex: 200 0 0;
+  margin-left: 20px; 
+}
+
+.rodape_style {
+  background-color: #3F3D3D;
+  margin-top: 100px;
+  padding: 20px;
+  width: 100%;
+  height: 100px;
+}
+
+.rodape_botao1 {
+  text-decoration: none;
+  outline: none;
+  color: azure;
+  margin: 40px;
+  padding: 5px;
+  font-family:'Darker Grotesque';
+
+}
+
+.rodape_botao2 {
+  text-decoration: none;
+  outline: none;
+  color: azure;
+  margin: 40px;
+  padding: 5px;
+  font-family:'Darker Grotesque';
+
+}
+
+.rodape_botao3 {
+  text-decoration: none;
+  outline: none;
+  color: azure;
+  margin: 40px;
+  padding: 5px;
+  font-family:'Darker Grotesque';
+
+}
+
+.rodape_botao4 {
+  text-decoration: none;
+  outline: none;
+  color: azure;
+  margin: 40px;
+  padding: 5px;
+  font-family:'Darker Grotesque';
+
 }

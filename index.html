@@ -44,7 +44,8 @@
         </span>
       </nav>
     </header>
-    <section>
+    <section class="main-content">
+      <!-- Seu conteúdo principal -->
       <main class="texto-main">
         <!-- Destacar aqui a polêmica da obra-->
         <p class="citacao1">"Pobres de Nós" - desenvolvido por Igor Araújo</p>
@@ -92,83 +93,96 @@
         ></iframe>
       </div>
       <!--Podcast-->
-      <div>
+      <div class="podcast">
         <a
           href="https://open.spotify.com/episode/0qWH0oRsTeB9rf1LZSiNTY?si=5e-0AbfDQRC4tX5X_hkO-g&context=spotify%3Ashow%3A4iliS7YGfL5ddMEcAeDUh9&nd=1&dlsi=c21087098b3c4c31"
         >
-          <img
-            src="./assets/img/poster podcast.jpg"
-            alt="poster com 4 quadros no rosto da Bella Baxter"
-          />
           <p>
             OUÇA AGORA O PODCAST DA CINEM(AÇÃO) - Coloque seus fones de ouvido e
             ouça o novo episódio sobre o filme
           </p>
+          <img
+            class="podcast_img"
+            src="./assets/img/poster podcast.jpg"
+            alt="poster com 4 quadros no rosto da Bella Baxter"
+          />
         </a>
       </div>
       <!--Fazer blocos de 6 noticias sobre o filme aqui-->
-      <div>
+      <div class="news-section">
         <h4>Notícias em destaque</h4>
-        <a
-          href="https://jornal.ufg.br/n/179626-critica-de-cinema-comenta-pobres-criaturas-filme-candidato-ao-oscar-2024"
-          >Crítica - Jornal UFG”</a
-        >
-        <img
-          src="./assets/img/JORNAL_UFG.png"
-          alt="Bella Baxter em fundo azul"
-        />
-      </div>
-      <div>
-        <a
-          href="https://www.adorocinema.com/filmes/filme-290065/criticas/espectadores/"
-          >Crítica - Adoro Cinema</a
-        >
-        <img
-          src="./assets/img/ADOROCINEMA.png"
-          alt="Bella Baxter em fundo preto"
-        />
-      </div>
-      <div>
-        <a
-          href="https://www.tecmundo.com.br/minha-serie/279874-pobres-criaturas-beleza-bizarrice-autodescoberta-critica.htm"
-          >Crítica - TecMundo</a
-        >
-        <img
-          src="./assets/img/TECMUNDO.png"
-          alt="Bella Baxter olhando o horizonte sobre a sacada"
-        />
-      </div>
-      <div>
-        <a
-          href="https://www.nexojornal.com.br/critica-o-bizarro-no-filme-pobres-criaturas-de-yorgos-lanthimos"
-          >Coluna - Jornal Nexo</a
-        >
-        <img
-          src="./assets/img/nexojornal.png"
-          alt="Print do título da notícia no site"
-        />
-      </div>
-      <div>
-        <a
-          href="https://www.nsctotal.com.br/noticias/o-que-ha-por-tras-de-pobres-criaturas-e-as-polemicas-sobre-o-filme"
-          >Avaliação - NSC Total</a
-        >
-        <img
-          src="./assets/img/nsctotal.png"
-          alt="Print do título da notícia no site"
-        />
-      </div>
-      <div>
-        <a href="https://www.omelete.com.br/filmes/criticas/pobres-criaturas"
-          >Crítica - Omelete</a
-        >
-        <img
-          src="./assets/img/omelete.png"
-          alt="Print do título da notícia no site"
-        />
+        <div class="news-row">
+          <div class="news-item">
+            <a
+              href="https://jornal.ufg.br/n/179626-critica-de-cinema-comenta-pobres-criaturas-filme-candidato-ao-oscar-2024"
+              ><img
+                src="./assets/img/JORNAL_UFG.png"
+                alt="Bella Baxter em fundo azul"
+              />
+              <p><b>Crítica - Jornal UFG</b></p>
+            </a>
+          </div>
+
+          <div class="news-item">
+            <a
+              href="https://www.adorocinema.com/filmes/filme-290065/criticas/espectadores/"
+              ><img
+                src="./assets/img/ADOROCINEMA.png"
+                alt="Bella Baxter em fundo preto"
+              />
+              <p><b>Crítica - Adoro Cinema</b></p>
+            </a>
+          </div>
+
+          <div class="news-item">
+            <a
+              href="https://www.tecmundo.com.br/minha-serie/279874-pobres-criaturas-beleza-bizarrice-autodescoberta-critica.htm"
+              ><img
+                src="./assets/img/TECMUNDO.png"
+                alt="Bella Baxter olhando o horizonte sobre a sacada"
+              />
+              <p><b>Crítica - TecMundo</b></p>
+            </a>
+          </div>
+        </div>
+
+        <div class="news-row">
+          <div class="news-item">
+            <a
+              href="https://www.nexojornal.com.br/critica-o-bizarro-no-filme-pobres-criaturas-de-yorgos-lanthimos"
+              ><img
+                src="./assets/img/nexojornal.png"
+                alt="Print do título da notícia no site"
+              />
+              <p><b>Coluna - Jornal Nexo</b></p>
+            </a>
+          </div>
+
+          <div class="news-item">
+            <a
+              href="https://www.nsctotal.com.br/noticias/o-que-ha-por-tras-de-pobres-criaturas-e-as-polemicas-sobre-o-filme"
+              ><img
+                src="./assets/img/nsctotal.png"
+                alt="Print do título da notícia no site"
+              />
+              <p><b>Avaliação - NSC Total</b></p>
+            </a>
+          </div>
+
+          <div class="news-item">
+            <a
+              href="https://www.omelete.com.br/filmes/criticas/pobres-criaturas"
+              ><img
+                src="./assets/img/omelete.png"
+                alt="Print do título da notícia no site"
+              />
+              <p><b>Crítica - Omelete</b></p>
+            </a>
+          </div>
+        </div>
       </div>
     </section>
-    <aside>
+    <aside class="aside">
       <!--Barra lateral com botão para o filme -->
       <img src="./assets/img/poster.jpg" alt="Poster de cinema" />
       <h2>Sinopse</h2>
@@ -180,11 +194,22 @@
       </p>
       <button><a href="aobra.html">Saiba mais</a></button>
     </aside>
-    <footer>
-      <p><a href="https://www.linkedin.com/in/igorarauj/">LinkedIn</a></p>
-      <p><a href="https://web.facebook.com/igormarauj/">Facebook</a></p>
-      <p><a href="https://www.instagram.com/igorarauj/">Instagram</a></p>
-      <p><a href="https://github.com/IgorArauj12">Github</a></p>
+    <footer class="rodape_style">
+      <!-- Código HTML do rodapé -->
+      <span>
+        <span class="rodape_botao1"
+          ><a href="https://www.linkedin.com/in/igorarauj/">LinkedIn</a></span
+        >
+        <span class="rodape_botao2"
+          ><a href="https://web.facebook.com/igormarauj/">Facebook</a></span
+        >
+        <span class="rodape_botao3"
+          ><a href="https://www.instagram.com/igorarauj/">Instagram</a></span
+        >
+        <span class="rodape_botao4"
+          ><a href="https://github.com/IgorArauj12">Github</a></span
+        >
+      </span>
     </footer>
   </body>
 </html>

@@ -2,8 +2,19 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;}
+  box-sizing: border-box;
+  display: flexbox;
+}
+/* Fonte Rock Salt */
+.rock-salt-regular {
+  font-family: "Rock Salt", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
 
+
+/* Fonte Darker */
+  @import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@400&display=swap');
 body {
     margin: 0;
     background: linear-gradient(to bottom, #C8979D, #FFF699)
@@ -11,16 +22,19 @@ body {
 }
 
 .barraNavegacao {
-content: 30px;
-width: absolute;
-height: 300px;
-background-image: url('../img/Carrossel\ \(1\)copia.jpeg');
-background-size: cover;
-background-position-x: 100%;
-background-position-y: 50%;
-background-repeat: no-repeat;
-color: azure;
-
+  display: flex;
+  flex-direction: column;
+  content: 30px;
+  width: absolute;
+  height: 300px;
+  background-size: cover;
+  background-position-x: 100%;
+  background-position-y: 50%;
+  background-repeat: no-repeat;
+  font-family: 'Darker Grotesque';
+  font-size: 30px;
+  color: azure;
+  background-image: url('../img/Carrossel\ \(1\)copia.jpeg');
 }
 
 .barraNavegacao__logo {
@@ -73,4 +87,54 @@ border-radius: 5px;
     border: 1px solid azure;
     padding: 5px;
     outline: none;
+  }
+
+
+  /* Rodapé*/
+
+  .rodape_style {
+    background-color: #3F3D3D;
+    margin-top: 100px;
+    padding: 20px;
+    width: 100%;
+    height: 100px;
+    
+  }
+  
+  .rodape_botao1 {
+    text-decoration: none;
+    outline: none;
+    color: azure;
+    margin: 40px;
+    padding: 5px;
+    font-family:'Darker Grotesque';
+  
+  }
+  
+  .rodape_botao2 {
+    text-decoration: none;
+    outline: none;
+    color: azure;
+    margin: 40px;
+    padding: 5px;
+    font-family:'Darker Grotesque';
+  
+  }
+  
+  .rodape_botao3 {
+    text-decoration: none;
+    outline: none;
+    color: azure;
+    margin: 40px;
+    padding: 5px;
+    font-family:'Darker Grotesque';
+  }
+  
+  .rodape_botao4 {
+    text-decoration: none;
+    outline: none;
+    color: azure;
+    margin: 40px;
+    padding: 5px;
+    font-family:'Darker Grotesque';
   }

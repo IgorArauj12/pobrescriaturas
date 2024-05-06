@@ -3,8 +3,10 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  display: flexbox;
 }
+
+
+
 /* Fonte Rock Salt */
 .rock-salt-regular {
   font-family: "Rock Salt", cursive;
@@ -38,56 +40,54 @@ body {
 }
 
 .barraNavegacao__logo {
-margin: 30px;
-width: 50px;
-height: auto;
-border-radius: 5px;
-
-}
-
-.barraNavegacao__botao {
-    align-content: center;
-    margin-bottom: 20px;
-    width: absolute;
-    border-bottom: 1px solid azure;
-}
-
-.barraNavegacao__botao--1 {
-    text-decoration: none;
-    outline: none;
-    color: azure;
-    margin: 40px;
-    border: 1px solid azure;
-    padding: 5px;
+  margin: 30px;
+  width: 50px;
+  height: 40px;
+  border-radius: 5px;
+  
   }
-
-.barraNavegacao__botao--2 {
-    text-decoration: none;
-    outline: none;
-    color: azure;
-    margin: 40px;
-    border: 1px solid azure;
-    padding: 5px;
+  
+  .barraNavegacao__botao {
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+      margin-bottom: 20px;
+      width: absolute;
+      border-bottom: 1px solid azure;
+      display: inline;
   }
-
-.barraNavegacao__botao--3 {
-    text-decoration: none;
-    outline: none;
-    color: azure;
-    margin: 40px;
-    border: 1px solid azure;
-    padding: 5px;
-  }
-
-.barraNavegacao__botao--4 {
-    text-decoration: none;
-    outline: none;
-    color: azure;
-    margin: 40px;
-    border: 1px solid azure;
-    padding: 5px;
-    outline: none;
-  }
+  
+  .barraNavegacao__botao--1 {
+      text-decoration: none;
+      outline: none;
+      color: azure;
+      margin: 40px;
+      padding: 5px;
+    }
+  
+  .barraNavegacao__botao--2 {
+      text-decoration: none;
+      outline: none;
+      color: azure;
+      margin: 40px;
+      padding: 5px;
+    }
+  
+  .barraNavegacao__botao--3 {
+      text-decoration: none;
+      outline: none;
+      color: azure;
+      margin: 40px;
+      padding: 5px;
+    }
+  
+  .barraNavegacao__botao--4 {
+      text-decoration: none;
+      outline: none;
+      color: azure;
+      margin: 40px;
+      padding: 5px;
+      outline: none;
+    }
 
   /* Rodapé*/
 

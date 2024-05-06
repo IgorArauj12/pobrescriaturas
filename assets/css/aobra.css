@@ -3,7 +3,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-display: flexbox;
 }
 /* Fonte Rock Salt */
 .rock-salt-regular {
@@ -39,72 +38,118 @@ body {
 }
 
 .barraNavegacao__logo {
-margin: 30px;
-width: 50px;
-height: auto;
-border-radius: 5px;
+  margin: 30px;
+  width: 50px;
+  height: 40px;
+  border-radius: 5px;
+  
+  }
+  
+  .barraNavegacao__botao {
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+      margin-bottom: 20px;
+      width: absolute;
+      border-bottom: 1px solid azure;
+      display: inline;
+  }
+  
+  .barraNavegacao__botao--1 {
+      text-decoration: none;
+      outline: none;
+      color: azure;
+      margin: 40px;
+      padding: 5px;
+    }
+  
+  .barraNavegacao__botao--2 {
+      text-decoration: none;
+      outline: none;
+      color: azure;
+      margin: 40px;
+      padding: 5px;
+    }
+  
+  .barraNavegacao__botao--3 {
+      text-decoration: none;
+      outline: none;
+      color: azure;
+      margin: 40px;
+      padding: 5px;
+    }
+  
+  .barraNavegacao__botao--4 {
+      text-decoration: none;
+      outline: none;
+      color: azure;
+      margin: 40px;
+      padding: 5px;
+      outline: none;
+    }
 
-}
+    /* Texto e foto*/
 
-.barraNavegacao__botao {
-  align-content: center;
-  margin-bottom: 20px;
-  width: absolute;
-  border-bottom: 1px solid azure;
-}
+    .primeiro_bloco {
+      margin-left: 300px;
+      margin-right: 300px;
 
-.barraNavegacao__botao--1 {
-  text-decoration: none;
-  outline: none;
-  color: azure;
-  margin: 40px;
-  border: 1px solid azure;
-  padding: 5px;
-}
+    }
 
-.barraNavegacao__botao--2 {
-  text-decoration: none;
-  outline: none;
-  color: azure;
-  margin: 40px;
-  border: 1px solid azure;
-  padding: 5px;
-}
+    .img_obra {
+      width: 300px;
+      height: auto;
 
-.barraNavegacao__botao--3 {
-  text-decoration: none;
-  outline: none;
-  color: azure;
-  margin: 40px;
-  border: 1px solid azure;
-  padding: 5px;
-}
+    }
 
-.barraNavegacao__botao--4 {
-  text-decoration: none;
-  outline: none;
-  color: azure;
-  margin: 40px;
-  border: 1px solid azure;
-  padding: 5px;
-  outline: none;
-}
+    .titulo1 {
+      color: #3F3D3D;
+      text-align: center;
+      font-family: "Rock Salt", cursive;
+      font-size: 30px;
+      margin-top: 40px;
+      margin-right: 40px;
+    }
 
-.carossel-container {
-    width: 100%;
+    .texto-main {
+      color: #3F3D3D;
+      text-align: left;
+      font-size: 25px;
+      margin-top: 40px;
+      margin-right: 40px;
+      margin-left: 300px;
+      margin-right: 300px;
+      text-align: justify;
+      font-family: 'Darker Grotesque';
+      
+      }
+
+
+  /* Carrossel*/
+  .carrossel {
     overflow: hidden;
-  }
-  
-  .carrossel-slide {
-    display: flex;
-    width: 300%;
-    
-  }
-  
-  .carousel-slide img {
     width: 100%;
-    height: auto;
+    position: relative;
   }
+  
+  .carrossel-inner {
+    display: flex;
+    transition: transform 0.5s ease;
+  }
+  
+  .carrossel-inner img {
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  @keyframes slide {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-100%); }
+  }
+  
+  .carrossel-inner img {
+    animation: slide 5s infinite;
+  }  
+
 
   /* Rodapé*/
 

@@ -119,8 +119,8 @@ font-family: 'Darker Grotesque';
   text-align: right;
   margin-top: 40px;
   margin-right: 40px;
-  font-size: 10px;
-  font-family: "Rock Salt", cursive;
+  font-size: 25px;
+  font-family: 'Darker Grotesque';
 }
 
 /* Seção do trailer */
@@ -163,6 +163,13 @@ font-family: 'Darker Grotesque';
   background-image: url(./assets/img/posterpodcast.jpg);
 
 }
+
+.podcast_text{
+  margin-bottom: 40px;
+  margin-top: 40px;
+
+}
+
 
 .podcast_img {
   height: auto;
@@ -214,11 +221,6 @@ font-family: 'Darker Grotesque';
   width: 100%;
   height: auto;
   border-radius: 5px;
-}
-
-.aside-direita {
-
-
 }
 
 /* Rodapé*/
